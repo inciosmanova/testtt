@@ -1,0 +1,649 @@
+body {
+  overflow-x: hidden;
+}
+
+body header {
+  background-color: #272727;
+}
+
+body header .container {
+  padding-top: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1300px;
+}
+
+body header .container .site-adress-tel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header .container .site-adress-tel i {
+  color: #F9B707;
+  font-size: 20px;
+  padding-right: 2%;
+  padding-left: 5%;
+}
+
+body header .container .site-adress-tel P {
+  color: white;
+  color: white;
+  font-size: 16px;
+  line-height: 2s;
+  font-weight: 200;
+}
+
+body header .container .site-adress-tel P a {
+  text-decoration: none;
+  color: white;
+}
+
+body header .container .site-adress-tel P a :hover {
+  text-decoration: none;
+  color: white;
+}
+
+body header .container .site-icon {
+  float: right;
+  width: 18%;
+  margin-left: 29%;
+}
+
+body header .container .site-icon i {
+  color: white;
+  font-size: 16px;
+  margin: 0% 2% 0% 2%;
+}
+
+body header .container .site-icon i :hover {
+  color: #F9B707;
+}
+
+body main .head-section {
+  overflow: hidden;
+}
+
+body main .head-section .navbar {
+  position: absolute;
+  z-index: 100;
+  margin-left: 12%;
+  top: 10%;
+  background-color: transparent !important;
+  width: 100%;
+}
+
+body main .head-section .navbar .collapse {
+  margin-left: 18%;
+}
+
+body main .head-section .navbar .collapse .navbar-nav {
+  width: 100%;
+}
+
+body main .head-section .navbar .collapse .navbar-nav .nav-item .nav-link {
+  width: 100%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+body main .head-section .navbar .collapse .navbar-nav .form-inline {
+  margin-left: 12%;
+}
+
+body main .head-section .navbar .collapse .navbar-nav .form-inline button {
+  color: #F9B707;
+  border-color: #F9B707;
+}
+
+body main .head-section .carousel {
+  position: relative;
+}
+
+body main .head-section .carousel .carousel-inner .carousel-item img {
+  height: 57pc;
+}
+
+body main .head-section .carousel .carousel-inner .carousel-item .carousel-caption {
+  text-align: center;
+  -webkit-transform: translateY(-15pc);
+          transform: translateY(-15pc);
+}
+
+body main .head-section .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+  text-transform: uppercase;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 110px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 127px;
+  letter-spacing: 6.6px;
+  margin: 0px 0px 19px 0px;
+}
+
+body main .head-section .carousel .carousel-inner .carousel-item .carousel-caption h3 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+body main .head-section .carousel .carousel-inner .carousel-item .carousel-caption a {
+  color: white;
+  background-color: #F9B707;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-style: normal;
+  border-radius: 4%;
+  margin-top: 4%;
+  padding: 1% 2%;
+  line-height: 127px;
+}
+
+body main .head-section .carousel .carousel-inner .carousel-item .carousel-caption a :hover {
+  background-color: #000;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body main .services .container {
+  margin-top: 5%;
+}
+
+body main .services .container .line {
+  width: 4%;
+  height: 0.3%;
+  margin-left: 27%;
+  background-color: #F9B707;
+  position: absolute;
+}
+
+body main .services .container h1 {
+  position: relative;
+  text-align: center;
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 127px;
+  text-transform: uppercase;
+  font-family: "Montserrat", Sans-serif;
+  letter-spacing: 1.8px;
+  position: relative;
+}
+
+body main .services .container .row .col-lg-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .services .container .row .col-lg-4 i {
+  color: #ffffff;
+  font-size: 44px;
+  text-align: center;
+  background-color: #F9B707;
+  border-radius: 50%;
+  height: 6PC;
+  padding: 5%;
+  margin-top: 12%;
+  margin-right: 4%;
+}
+
+body main .services .container .row .col-lg-4 .services-content a {
+  -webkit-text-decoration: NONE;
+          text-decoration: NONE;
+}
+
+body main .services .container .row .col-lg-4 .services-content a h1 {
+  line-height: normal;
+  text-align: left;
+  font-family: "Montserrat", Sans-serif;
+  color: #333333;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 34.02px;
+  text-decoration: none;
+}
+
+body main .services .container .row .col-lg-4 .services-content a h1 :hover {
+  text-decoration: none;
+  color: #F9B707;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body main .services .container .row .col-lg-4 .services-content p {
+  text-align: center;
+  color: #888888;
+  font-family: "Lato", Sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 30.06px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  text-align: left;
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+body main .history {
+  margin-top: 4%;
+  background-color: #F6F6F7;
+}
+
+body main .history .container {
+  margin-top: 4%;
+}
+
+body main .history .container .row .col-lg-6 {
+  margin-top: 8%;
+  margin-bottom: 6%;
+}
+
+body main .history .container .row .col-lg-6 .line {
+  background-color: #F9B707;
+  width: 10%;
+  height: 0.5%;
+}
+
+body main .history .container .row .col-lg-6 h1 {
+  letter-spacing: 1px;
+  line-height: 2.5;
+  font-weight: 600;
+  font-size: 31px;
+  text-transform: uppercase;
+  font-family: "Montserrat", Sans-serif;
+}
+
+body main .history .container .row .col-lg-6 h3 {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 15px;
+  color: #727272;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+body main .history .container .row .col-lg-6 p {
+  color: #B2B2B3;
+  font-size: 14px;
+  font-family: "Montserrat", Sans-serif;
+  letter-spacing: 1px;
+}
+
+body main .history .container .row .col-lg-6 a {
+  text-decoration: none;
+  color: white;
+  background-color: #F9B707;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 4%;
+  line-height: 6;
+}
+
+body main .history .container .row .col-lg-6 a :hover {
+  background-color: #000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body main .history .container .row .col-lg-6 img {
+  margin-left: 11%;
+  width: 103%;
+  -webkit-animation-name: image;
+          animation-name: image;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+@-webkit-keyframes image {
+  from {
+    margin-left: 60%;
+  }
+  to {
+    margin-left: 11%;
+  }
+}
+
+@keyframes image {
+  from {
+    margin-left: 60%;
+  }
+  to {
+    margin-left: 11%;
+  }
+}
+
+body main .images-elements {
+  margin-bottom: 4%;
+}
+
+body main .images-elements .row .col-lg-3 img {
+  width: 107%;
+  height: 101%;
+  bottom: -5%;
+  position: relative;
+  opacity: 0.9;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body main .images-elements .row .col-lg-3 img :hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0.6;
+}
+
+body main .images-elements .row .col-lg-3 .text {
+  opacity: 1;
+  position: absolute;
+  top: 25%;
+  left: 17%;
+  top: 5%;
+  left: 3%;
+}
+
+body main .images-elements .row .col-lg-3 .text :hover {
+  opacity: 1;
+}
+
+body main .images-elements .row .col-lg-3 .text h1 {
+  margin-top: 18%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 34.02px;
+  letter-spacing: 1.08px;
+}
+
+body main .images-elements .row .col-lg-3 .text p {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Lato", Sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 30.06px;
+  opacity: 0;
+}
+
+body main .images-elements .row .col-lg-3 .text p :hover {
+  opacity: 1;
+}
+
+body main .images-elements .row .col-lg-3 .text a {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: underline;
+  line-height: 14px;
+  text-align: center;
+  color: #fff;
+  margin-left: 34%;
+  opacity: 0;
+}
+
+body main .images-elements .row .col-lg-3 .text a :HOVER {
+  color: #F9B707;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 1;
+}
+
+body main .recent-news .container {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+body main .recent-news .container .line {
+  width: 3%;
+  height: 0.2%;
+  margin-left: 27%;
+  background-color: #F9B707;
+  position: absolute;
+}
+
+body main .recent-news .container h1 {
+  text-transform: uppercase;
+  font-size: 28PX;
+  text-align: center;
+  line-height: 4;
+  font-weight: 600;
+  letter-spacing: 1PX;
+  font-family: sans-serif;
+}
+
+body main .recent-news .container .row .col-lg-4 a img {
+  width: 97%;
+  height: 62%;
+}
+
+body main .recent-news .container .row .col-lg-4 a {
+  text-decoration: none;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 40.02px;
+  letter-spacing: 1.08px;
+  text-align: left;
+  color: #000;
+  margin-top: 5%;
+}
+
+body main .recent-news .container .row .col-lg-4 a :hover {
+  color: #f9b707;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body main .recent-news .container .row .col-lg-4 span {
+  color: #888888;
+  font-family: "Lato", Sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 34.02px;
+  text-align: left;
+  text-transform: none;
+}
+
+body main .recent-news .container .row .col-lg-4 span a {
+  color: #f9b707;
+  font-family: "Lato", Sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 34.02px;
+  text-align: left;
+  margin-left: 1%;
+  text-transform: lowercase;
+}
+
+body main .recent-news .container .row .col-lg-4 span a :hover {
+  color: #000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body main .recent-news .container .row .col-lg-4 p {
+  color: #888888;
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 30.06px;
+  text-align: left;
+}
+
+body main .recent-news .container .button-link {
+  background-color: #f9b707;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 2%;
+  letter-spacing: 1px;
+  line-height: 8;
+  font-weight: 400;
+  margin-left: 41%;
+  border-radius: 5%;
+}
+
+body main .recent-news .container .button-link :hover {
+  background-color: #000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body footer {
+  background-color: #333333;
+  padding-top: 3%;
+}
+
+body footer .container {
+  padding-bottom: 3%;
+  margin-top: 4%;
+}
+
+body footer .container .row .col-lg-4 img {
+  width: 73%;
+}
+
+body footer .container .row .col-lg-4 p {
+  width: 87%;
+  color: #707070;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+body footer .container .row .col-lg-2 h3 {
+  color: white;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+body footer .container .row .col-lg-2 .list {
+  list-style: none;
+  padding: 0%;
+}
+
+body footer .container .row .col-lg-2 .list .list-item {
+  color: #F9B707;
+  font-size: 13px;
+  line-height: 2;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+body footer .container .row .col-lg-2 .list .list-item :HOVER {
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body footer .container .row .col-lg-3 h3 {
+  color: white;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+body footer .container .row .col-lg-3 span {
+  color: #888888;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 2;
+}
+
+body footer .container .row .col-lg-3 a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  text-align: left;
+}
+
+body footer .container .row .col-lg-3 a :hover {
+  color: #F9B707;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body footer .container .row .col-lg-3 p {
+  color: #888888;
+  font-size: 12px;
+  line-height: 2;
+}
+
+body footer .container .row .col-lg-3 p a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #F9B707;
+}
+
+body footer .container .row .col-lg-3 p a :hover {
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body footer .footer-div {
+  background-color: #272727;
+}
+
+body footer .footer-div p {
+  margin-left: 20%;
+  color: white;
+  font-size: 13px;
+  float: left;
+}
+
+body footer .footer-div p a {
+  text-decoration: none;
+  color: #F9B707;
+}
+
+body footer .footer-div p a :hover {
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body footer .footer-div .footer-icon {
+  margin-left: 73%;
+}
+
+body footer .footer-div .footer-icon i {
+  color: white;
+  letter-spacing: 2%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body footer .footer-div .footer-icon i :hover {
+  color: #F9B707;
+}
+/*# sourceMappingURL=main.css.map */

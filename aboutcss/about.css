@@ -1,0 +1,268 @@
+body {
+  overflow-x: hidden;
+}
+
+body header {
+  background-color: #272727;
+}
+
+body header .container {
+  padding-top: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1300px;
+}
+
+body header .container .site-adress-tel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header .container .site-adress-tel i {
+  color: #F9B707;
+  font-size: 20px;
+  padding-right: 2%;
+  padding-left: 5%;
+}
+
+body header .container .site-adress-tel P {
+  color: white;
+  color: white;
+  font-size: 16px;
+  line-height: 2s;
+  font-weight: 200;
+}
+
+body header .container .site-adress-tel P a {
+  text-decoration: none;
+  color: white;
+}
+
+body header .container .site-adress-tel P a :hover {
+  text-decoration: none;
+  color: white;
+}
+
+body header .container .site-icon {
+  float: right;
+  width: 18%;
+  margin-left: 29%;
+}
+
+body header .container .site-icon i {
+  color: white;
+  font-size: 16px;
+  margin: 0% 2% 0% 2%;
+}
+
+body header .container .site-icon i :hover {
+  color: #F9B707;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body header .container .site-icon i :hover {
+  color: #F9B707;
+}
+
+body main .head-sec .navbar {
+  background-color: #333333 !important;
+}
+
+body main .head-sec .navbar a img {
+  margin-left: 105%;
+}
+
+body main .head-sec .navbar .collapse .navbar-nav {
+  width: 100%;
+  margin-left: 35%;
+}
+
+body main .head-sec .navbar .collapse .navbar-nav .nav-item .nav-link {
+  color: white;
+}
+
+body main .head-sec .navbar .collapse .navbar-nav .nav-item .nav-link :hover {
+  color: #F9B707;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+body main .head-sec .navbar .collapse .form-inline .button {
+  color: #F9B707;
+}
+
+body main .section-about .about-img img {
+  width: 100%;
+  height: 48pc;
+  position: relative;
+}
+
+body main .section-about .about-img .about-text {
+  position: absolute;
+  bottom: 45%;
+  right: 23%;
+}
+
+body main .section-about .about-img .about-text .line {
+  width: 2%;
+  height: 1px;
+  background-color: #F9B707;
+}
+
+body main .section-about .about-img .about-text h1 {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 79.98px;
+  letter-spacing: 3.6px;
+  color: white;
+  text-align: center;
+}
+
+body main .section-about .about-img .about-text p {
+  color: #ffffff;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 34.02px;
+  letter-spacing: 1.08px;
+  text-align: center;
+  width: 99%;
+}
+
+body footer {
+  background-color: #333333;
+  padding-top: 3%;
+}
+
+body footer .container {
+  padding-bottom: 3%;
+  margin-top: 4%;
+}
+
+body footer .container .row .col-lg-4 img {
+  width: 73%;
+}
+
+body footer .container .row .col-lg-4 p {
+  width: 87%;
+  color: #707070;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+body footer .container .row .col-lg-2 h3 {
+  color: white;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+body footer .container .row .col-lg-2 .list {
+  list-style: none;
+  padding: 0%;
+}
+
+body footer .container .row .col-lg-2 .list .list-item {
+  color: #F9B707;
+  font-size: 13px;
+  line-height: 2;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+body footer .container .row .col-lg-2 .list .list-item :HOVER {
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body footer .container .row .col-lg-3 h3 {
+  color: white;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+body footer .container .row .col-lg-3 span {
+  color: #888888;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 2;
+}
+
+body footer .container .row .col-lg-3 a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  text-align: left;
+}
+
+body footer .container .row .col-lg-3 a :hover {
+  color: #F9B707;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body footer .container .row .col-lg-3 p {
+  color: #888888;
+  font-size: 12px;
+  line-height: 2;
+}
+
+body footer .container .row .col-lg-3 p a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #F9B707;
+}
+
+body footer .container .row .col-lg-3 p a :hover {
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body footer .footer-div {
+  background-color: #272727;
+}
+
+body footer .footer-div p {
+  margin-left: 20%;
+  color: white;
+  font-size: 13px;
+  float: left;
+}
+
+body footer .footer-div p a {
+  text-decoration: none;
+  color: #F9B707;
+}
+
+body footer .footer-div p a :hover {
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body footer .footer-div .footer-icon {
+  margin-left: 73%;
+}
+
+body footer .footer-div .footer-icon i {
+  color: white;
+  letter-spacing: 2%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body footer .footer-div .footer-icon i :hover {
+  color: #F9B707;
+}
+/*# sourceMappingURL=about.css.map */
